@@ -7,7 +7,7 @@ import './Menu.css';
 function Menu() {
  return (
      <nav className="Menu">
-         <Link href="/">
+         <Link to="/">
             <img  className="Logo" src={Logo} alt="WegFlix logo"/>
         </Link>
         <Button as={Link} className="ButtonLink" to="/cadastro/video" >
